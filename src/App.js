@@ -1,23 +1,23 @@
 import "./App.css";
 
-import reaction from "./files/assets/images/icon-reaction.svg";
-import memory from "./files/assets/images/icon-memory.svg";
-import verbal from "./files/assets/images/icon-verbal.svg";
-import visual from "./files/assets/images/icon-visual.svg";
+import reaction from "./assets/images/icon-reaction.svg";
+import memory from "./assets/images/icon-memory.svg";
+import verbal from "./assets/images/icon-verbal.svg";
+import visual from "./assets/images/icon-visual.svg";
 
 function App() {
   return (
     <>
       <div className="font-sans text-[18px]">
         <div className="flex flex-col items-center bg-gradient-to-b from-lightslateblue to-lightroyalblue rounded-b-3xl">
-          <p className="font-bold text-gray-300 p-4">Your Result</p>
+          <p className="font-bold text-gray-300 p-5">Your Result</p>
           <div className="bg-gradient-to-b from-violetblue to-persianblue rounded-full p-8 flex flex-col items-center">
-            <p className="font-extrabold text-gray-50 text-6xl mx-2">88</p>
+            <p className="font-extrabold text-gray-50 text-6xl mx-2">80</p>
             <p className="font-bold text-gray-400 text-sm">of 100</p>
           </div>
 
-          <p className="font-bold text-gray-50 my-2">Great</p>
-          <p className="font-medium mx-12 my-6 text-gray-200 text-md">
+          <p className="font-bold text-gray-50 my-4 text-2xl">Great</p>
+          <p className="font-medium mx-12 mt-2 mb-6 text-gray-200 text-md">
             You scored higher than 67% of the people who have taken this tests.
           </p>
         </div>
@@ -76,7 +76,7 @@ function App() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center mx-10">
+        <div className="flex flex-col items-center mx-10 ">
           <button className="font-medium w-full py-3 bg-darkgreyblue rounded-3xl text-white">
             Continue
           </button>

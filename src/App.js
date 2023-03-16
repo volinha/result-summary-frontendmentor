@@ -11,7 +11,7 @@ function App() {
   const [myData, setMyData] = useState(data);
 
   return (
-    <div className="sm:h-screen flex flex-col sm:flex-row items-center justify-center font-sans text-[18px]">
+    <div className="sm:h-screen flex flex-col sm:flex-row items-center justify-center font-sans text-[18px] bg-white">
       <div className="sm:flex sm:shadow-2xl sm:rounded-xl">
         <FinalResult rawData={myData}/>
         <Summary rawData={myData}/>

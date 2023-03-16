@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="sm:h-screen flex flex-col sm:flex-row items-center justify-center font-sans text-[18px]">
-      <div className="sm:flex sm:shadow-2xl">
+      <div className="sm:flex sm:shadow-2xl sm:rounded-xl">
         <FinalResult rawData={myData}/>
         <Summary rawData={myData}/>
       </div>

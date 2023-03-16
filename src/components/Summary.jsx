@@ -61,9 +61,7 @@ const Summary = ({ rawData }) => {
       </div>
 
       <div className="flex flex-col items-center mx-10 ">
-        <button className="font-medium w-full py-3 bg-darkgreyblue rounded-3xl text-white"
-          onClick={() => console.log(rawData[0].score)}
-        >
+        <button className="font-medium w-full py-3 bg-darkgreyblue rounded-3xl text-white hover:bg-gradient-to-b hover:from-lightroyalblue hover:to-lightslateblue transition transition-colors">
           Continue
         </button>
       </div>
